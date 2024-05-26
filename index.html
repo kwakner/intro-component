@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intro Component with Sign-In</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="main-container">
+      <div class="header-text">
+        <h1>Learn to code by watching others</h1>
+        <p class="description">
+          See how experienced developers solve problem in real-time. Watching
+          scripted tutorials is great but understanding how developers think is
+          invaluable
+        </p>
+      </div>
+
+      <div class="design">
+        <div class="try">
+          <button class="tr" type="button">
+            <b>Try it free 7 days</b> then $20/mo. thereafter
+          </button>
+        </div>
+
+        <form>
+          <div class="field-group">
+            <input type="text" id="Fname" name="Fname" placeholder="First Name">
+            <img src="./img/icon-error.svg" class="error-icon" alt="error img">
+            <p class="error-text">First name cannot be empty</p>
+          </div>
+
+          <div class="field-group">
+            <input type="text" id="Lname" name="Lname" placeholder="Last Name">
+            <img src="./img/icon-error.svg" class="error-icon" alt="error img">
+            <p class="error-text">Last name cannot be empty</p>
+          </div>
+          
+          <div class="field-group">
+            <input type="email" id="Mail" name="Mail" placeholder="Email Address">
+            <img src="./img/icon-error.svg" class="error-icon" alt="error img">
+            <p class="error-text">Looks like this not valid email</p>
+          </div>
+
+          <div class="field-group">
+            <input type="password" id="password" name="password" placeholder="Password">
+            <img src="./img/icon-error.svg" class="error-icon" alt="error img">
+            <p class="error-text">Password cannot be empty</p>
+          </div>
+          
+          
+          
+          <button class="free" type="submit">CLAIM YOUL FREE TRIAL</button>
+          <p class="foot">
+            By clicking the button, you are agreeing to our
+            <span>Terms and Services</span>
+          </p>
+        </form>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
